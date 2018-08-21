@@ -1,0 +1,23 @@
+{
+  "name": "webcomponent1",
+  "version": "1.0.0",
+  "description": "**Test WebComponent1**",
+  "main": "index.js",
+  "dependencies": {
+    "@polymer/lit-element": "^0.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffgsk/WebComponent1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffgsk/WebComponent1/issues"
+  },
+  "homepage": "https://github.com/jeffgsk/WebComponent1#readme"
+}
