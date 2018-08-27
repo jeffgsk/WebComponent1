@@ -3,8 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Test</title>
-</head>
-<body>
+    <base  href="/">
+    <script type="module">
+        import {LitElement, html} from '@polymer/lit-element';
+        class MyElement extends LitElement {
 
+            static get properties() { return { mood: String }}
+
+            _render({mood}) {
+                return html`<style> .mood { color: green; } </style>
+          Web Components are <span class="mood">${mood}</span>!`;
+            }
+
+        }
+
+        customElements.define('my-element', MyElement);
+    </script>
+
+
+</head>
+
+<body>
+<my-element mood="happy"></my-element>
 </body>
 </html>
